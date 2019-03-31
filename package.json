@@ -1,0 +1,15 @@
+{
+  "name": "@drifters/readme-generator",
+  "version": "1.0.0",
+  "description": "util to generate readme markdown based on package json",
+  "main": "bin/index",
+  "repository": "https://github.com/braindrifters/readme-generator",
+  "author": "suminksudhi",
+  "license": "MIT",
+  "scripts":{
+    "start":"readme-gen"
+  },
+  "bin": {
+    "readme-gen": "./bin/index.js"
+  }
+}
