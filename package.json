@@ -3,13 +3,29 @@
   "version": "1.0.0",
   "description": "util to generate readme markdown based on package json",
   "main": "bin/index",
-  "repository": "https://github.com/braindrifters/readme-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braindrifters/readme-generator.git"
+  },
   "author": "suminksudhi",
   "license": "MIT",
-  "scripts":{
-    "start":"readme-gen"
+  "scripts": {
+    "start": "readme-gen"
   },
   "bin": {
     "readme-gen": "./bin/index.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/braindrifters/readme-generator/issues"
+  },
+  "homepage": "https://github.com/braindrifters/readme-generator#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "readme",
+    "documentation"
+  ]
 }
